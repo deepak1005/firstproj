@@ -115,6 +115,7 @@ def hello(request):
 	''';
 	return HttpResponse(ss);
 
-
+def gitview(req):
+	return HttpResponse("<h1>Hello</h1><hr />")
 
   
