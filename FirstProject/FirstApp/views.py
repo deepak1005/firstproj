@@ -119,3 +119,5 @@ def gitview(req):
 	return HttpResponse("<h1>Hello</h1><hr />")
 
   
+def githubview(req):
+    return HttpResponse("<h1>welcome to django</h1><hr />")
